@@ -56,7 +56,6 @@
 		<form action="dispetcher.php" method="POST">
 		
 			<p>
-				<button onclick="function()" name="update">Обновить данные в таблице</button>
 				<button type="submit" name="prinyl">Отправить машину</button>
 				<button type="submit" name="otkaz">Отказать</button>
 			</p>
@@ -104,7 +103,6 @@
 			</table>
 			
  			<p>
- 				<button onclick="function()" name="update">Обновить данные в таблице</button>
  				<button type="submit" name="prinyl">Отправить машину</button>
  				<button type="submit" name="otkaz">Отказать</button>
  			</p>
