@@ -44,7 +44,7 @@ include ("blocksClient/header.php");
 			if(empty($errors))
 			{
 				//Все хорошо, все условия выполнены - поля заполнены - можно заказывать
-		//Код создания БД и занесения в нее инфы, подробнее на https://www.youtube.com/watch?v=vvgOPJQA8Zk
+		
 				$user=R::dispense('users');
 				$user->fio = $data['fio'];
 				$user->email = $data['email'];
