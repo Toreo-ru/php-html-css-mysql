@@ -1,0 +1,19 @@
+ .site 
+ {
+	margin: auto;
+	background-color:#FF543D;
+	font-size: 22px;
+	color: White;
+	top: 0;
+	width: 100%;
+}
+
+.Green1 
+{
+  background: green;
+  transition: .5s;
+}
+#chetyre2:checked ~ .Green1 
+{
+  background: red;
+}
